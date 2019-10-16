@@ -21,7 +21,7 @@ Windows Stemcells for both Pivotal Application Service (PAS) and Pivotal Contain
 For more information about Microsoft Baseline Security Standard and to download security configuration baselines for Windows, see [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319).
 
 
-## <a id='auditing'></a> Audit Policies
+### <a id='auditing'></a> Audit Policies
 
 Audit policies for Windows Server 2019 stemcells are based off Microsoft Baseline Security Standard. Audit policies allow you to better audit security vulnerabilities in your environment. 
 
@@ -34,3 +34,12 @@ The following list includes some of the key audit policies applied to Windows Se
 * Log audit events related to policy changes on Windows VMs.
 
 For more information about audit policies that apply to Windows stemcells, see [Microsoft Baseline Security Standard](#msft-baseline).
+© 2019 GitHub, Inc.
+
+### <a id='auditing'></a> Firewall Policies
+
+Firewall rules for Windows Server 2019 stemcells align with the Microsoft Baseline Security Standard, permitting all outbound requests and blocking all incoming requests to the Windows VM.
+
+_Note: While the Windows Server 2019 stemcells are not compliant with the Microsoft Baseline Standard, they still align with the recommended Firewall behavior._
+
+For more information about firewall rules of the Windows Server 2019 stemcells, please contact Pivotal at pcf-windows@pivotal.io. 
